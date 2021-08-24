@@ -67,6 +67,7 @@ window.alert(`The ${chooseSideItems} ${waiterCommentsSide[chooseSideItems]}`);
 window.alert(`${chooseSideItems} will cost you $${sideMenu[chooseSideItems]}`);
 
 
+
 const total = (mainMenu[chooseMainItems] + sideMenu[chooseSideItems]);
 
 window.alert(`Your total of your ${chooseMainItems} and your ${chooseSideItems} is $${total}.`);
