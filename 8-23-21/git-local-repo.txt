@@ -1,0 +1,58 @@
+In Powershell (Possibly Terminal):
+
+mkdir my-git-project
+
+cd my-git-project
+
+echo my-file.js 
+(Create file)
+
+vim my-file.js
+(Enter info)
+
+git init
+(Initializes repo and location on PC - creates a .git file that is invisible - use ls -la to see)
+
+git status
+
+git add . (or git add my-file.js)
+
+git status
+
+git commit -m "Initial commit" ('-m' means 'message')
+
+
+
+---How to push repo to GitHub---
+
+On GitHub, create new repository
+
+Second window on Code page:
+
+git remote add origin git@github.com:username/project-name.git
+(Adding a connection to a remote repository) (Origin is default name for whatever hosting service you're using)
+
+git remote -v
+(Fetch access is the ability to grab code, not push new code)
+
+git push -u origin master
+(Push code to origin branch (master or a feature branch))
+
+
+
+---Git Workflow---
+
+1. Create a new file (README.md for example [md = markdown])
+```
+# My project (Header)
+
+> My code for the git project
+```
+
+git add .
+
+git status
+
+git commit -m "Added readme file to repo"
+
+git push
