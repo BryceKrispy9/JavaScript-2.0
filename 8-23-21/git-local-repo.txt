@@ -56,3 +56,56 @@ git status
 git commit -m "Added readme file to repo"
 
 git push
+
+
+
+---What is in the .git directory?---
+
+.git > branches
+Feature branches or other config items
+
+.git > hooks
+Tool and a process that can be run at a specific time (Establish rules before a user pushes code)
+
+.git > info
+Shows items that you can exclude + more
+
+.git > logs (git log)
+Shows a list of all of the commit messages and a log of those commits
+
+.git > objects
+Objects in memory (Never really gonna use)
+
+.git > refs
+Actual references to commits and see origin master & tags
+See what last commit was and edit the message (Rare that you need to use unless you made a mistake on the commit message)
+Config file with repo configuration, remote origin and merge variable lists
+Index is status message (what branch, if up to date, or anything to commit)
+
+
+
+---How to hide files/directories in Git with gitignore---
+
+This is mainly meant for API keys, passwords to connect to, etc.
+
+echo .gitignore
+-> Add file name (For example: secrets.yml)
+
+git rm -r --cached .
+(This will delete all of cached changes on local machine - don't do on regular basis, only if you get an error when pushing with .gitignore)
+
+git add -m "Added gitignore file and deleted git cache"
+
+git commit -m "Added gitignore file and deleted git cache"
+
+mkdir node_modules
+
+echo node_modules/one.js node_modules/two.js node_modules/three.js
+
+In .gitignore add node_modules/
+
+git add .
+
+git commit -m "Updated gitignore file to include node_modules directory"
+
+git push
