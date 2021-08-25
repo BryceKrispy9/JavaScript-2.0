@@ -1,0 +1,10 @@
+git checkout (insert commit id) -b investigation
+(Temporary to check certain commit)
+
+git checkout master
+(Compare to old commit)
+
+git branch -d investigation
+
+git branch
+(Verify that it's deleted)
