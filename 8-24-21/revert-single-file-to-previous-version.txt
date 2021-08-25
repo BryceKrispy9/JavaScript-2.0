@@ -1,0 +1,13 @@
+git log [j key to go down, k key to go up, q to quit]
+(Need to get commit ID)
+
+Grab commit (bunch of letters and numbers)
+
+git checkout (numbers/letters) -- (path to file)
+
+git add .
+
+git commit -m "Reverted back to (commit id) for (file)"
+(To update site)
+
+git push
