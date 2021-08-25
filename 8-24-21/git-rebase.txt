@@ -1,0 +1,18 @@
+Rebase allows developers to create duplicate commits that you've used previously (Moves them to the front of the line)
+
+Never commit rebase on a shared branch, VERY BAD
+
+git checkout -b testing-rebase
+
+git add .
+
+git commit -m "Added new code"
+
+git checkout master
+
+git pull
+
+git rebase master
+
+git log
+(To see changes)
