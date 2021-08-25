@@ -1,0 +1,33 @@
+git checkout -b stash-demo
+
+*Make changes to file of choice*
+
+git checkout . (Reverts)
+
+git status
+
+git checkout stash-demo
+
+git status
+
+
+
+git stash-demo
+Puts changes into a hold pattern, we then need to tell git to bring them back
+
+git stash list
+
+git stash show
+(Shows changes)
+
+git stash apply
+(Commits changes)
+
+git add .
+
+git commit -m "Stash Demo"
+
+git list
+
+git stash clear
+(Clears stash because we already brought our code into the repo)
