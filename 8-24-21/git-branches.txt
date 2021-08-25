@@ -1,0 +1,18 @@
+Master Branch - Live version of application
+
+Little/Big features are smaller branches and then merge them together so that others can pull to their local machines
+
+To see branches
+git branch
+
+git checkout -b readme-styling (name just for example)
+
+To change branches
+git checkout (branch [master for example])
+
+Master branch is not touched until we merge directly into it from other branches
+git merge readme-styling
+
+
+
+---How to push and merge a remote branch in Git---
