@@ -1,0 +1,7 @@
+git checkout (commit id) -b investigation
+
+git reset --hard (commit id)
+(Sets you back however many commits)
+
+git push -f origin master
+(Forces this up the chain)
