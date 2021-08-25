@@ -1,4 +1,9 @@
 Best practice to remove old branch after it gets committed
 
 git checkout -b branch-to-remove
+(Loca removal)
 
+git pull
+
+git push origin --delete branch-to-remove
+(Remote removal)
