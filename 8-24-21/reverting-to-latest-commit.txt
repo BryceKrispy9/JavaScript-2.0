@@ -1,0 +1,10 @@
+git diff (file name)
+(Shows changes made)
+
+git checkout .
+(Removes changes to files)
+
+Git keeps track of changes to exisiting files, this will not work on new files added unless they are tracked
+
+rm (file name)
+If the file is untracked, this will remove them
