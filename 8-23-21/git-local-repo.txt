@@ -109,3 +109,10 @@ git add .
 git commit -m "Updated gitignore file to include node_modules directory"
 
 git push
+
+
+
+---Git Pull---
+
+git pull
+(Brings down newest changes on file(s))
