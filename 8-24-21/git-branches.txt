@@ -16,3 +16,11 @@ git merge readme-styling
 
 
 ---How to push and merge a remote branch in Git---
+
+git checkout -b 'another feature'
+
+git add .
+
+git commit -m "Updated code"
+
+git push -u (upstream) origin (remote name) another-feature
