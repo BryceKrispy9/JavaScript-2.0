@@ -1,0 +1,21 @@
+This is when me and another team member make changes to the same file
+
+git fetch is best used when with team
+
+git merge origin/master
+(Merge conflict will happen here)
+
+git status
+(Both modified means that the remote and local files were changed and need to be fixed)
+
+===== signs means that we brought that down
+
+To clean up is remove the elements you don't want and delete symbols/text and then save
+
+git status
+
+git add .
+
+git commit -m "Fixed merge conflicts"
+
+git push
