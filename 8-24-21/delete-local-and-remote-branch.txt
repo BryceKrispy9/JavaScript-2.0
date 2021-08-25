@@ -1,0 +1,4 @@
+Best practice to remove old branch after it gets committed
+
+git checkout -b branch-to-remove
+
