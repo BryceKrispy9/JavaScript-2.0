@@ -1,0 +1,15 @@
+Pull - Bring down changes from master branch/auto updates the file
+
+Fetch - Bring back changes but does not override local code (This is a cleaner way of pulling code in and giving you a step in between the merge process)
+
+git add .
+
+git commit -m "Added new function"
+
+git fetch
+(Diverges from master branch - git pull will merge them)
+
+git merge origin/master
+(Asks why we made the change [Don't add comment with '#'])
+
+git push
